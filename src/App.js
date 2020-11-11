@@ -1,25 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
+import Menu from './Menu';
+import FirstComponent from './FirstComponent';
+import BtnGroup from './BtnGroup';
+import Grid1 from './Grid';
+import Form from './form';
+import NumberComponent from './Number';
+import OneComponent from './useeffect';
+import Dummy from './dummy'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <FirstComponent/>
+      <Menu/>
+      <Grid1/>
+      <BtnGroup/>
+      <Form/>
+      <NumberComponent/>
+      <OneComponent/>
+      
+      <Dummy/>
     </div>
   );
 }
 
 export default App;
+
